@@ -1,17 +1,131 @@
+@font-face {
+    font-family: "oswald-bold";
+    src: url("/Fonts/Oswald-Bold.ttf");
+    /*font-weight: 600;*/
+}
+
+@font-face {
+    font-family: "oswald";
+    src: url("/Fonts/Oswald-Regular.ttf");
+    /*font-weight: 400;*/
+}
+
+@font-face {
+    font-family: "oswald-light";
+    src: url("/Fonts/Oswald-Light.ttf");
+    /*font-weight: 200;*/
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto&display=swap');
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkcyan;
+}
+
 h1{
-    color: rgb(54, 29, 163);
+    color:chocolate;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    background-color:beige;
+    /*box-sizing:border-box;*/
+    margin: 5px;
+    padding: 10px;
+    outline: 1px solid rgb(196, 171, 60);
+    text-indent: 0.5cm;
+    font-variant: small-caps;
+}
+
+ul{
+    list-style-type:circle;
+}
+
+#menu{
+    display: inline;
+    padding: 0px 50px;
+    border-left: 4px double chocolate;
+}
+
+table, th, td{
+    border-collapse: collapse;
+}
+
+table{
+    color:chocolate;
+    width: 100%;
+    font-family: "oswald";
+    
+}
+
+tr{
+    width: auto;
+    
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th{
+    
+}
+
+td{
+    width: auto;
+}
+
+#tartalom {
+    width: 100%;
+    border-bottom: 1px chocolate solid;
+}
+
+#tartalom tr{
+    
+}
+
+#tartalom th{
+    color: white;
+    background-color: chocolate;
+}
+
+#tartalom td{
     text-align: center;
 }
-table{
-    color: rgb(44, 226, 44);
+
+#foot{
+    text-align: left;
 }
-link{
-    color: rgb(185, 24, 150);
+
+img{
+    border: 5px;
+    border-color: crimson;
 }
+
 a{
     font-style: normal;
+    color:chocolate;
+    
+}
+
+a:link{
     text-decoration: none;
-    text-shadow: blueviolet;
-    text-emphasis-color: rgb(145, 32, 32);
-    text
+}
+
+a:visited{
+    text-decoration-style: wavy;
+    text-decoration-color: chocolate;
+}
+
+a:hover{
+    color: brown;
+    font-weight: bold;
+}
+
+#tartalom th a{
+    color:white;
 }
