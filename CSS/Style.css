@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-image: url("/img/beautiful hologram -color.png");
     background-size: 100%;
@@ -9,6 +10,104 @@ body{
 h1{
     color:antiquewhite;
     background-color: rgb(209, 40, 40);
+=======
+@font-face {
+    font-family: "oswald-bold";
+    src: url("/Fonts/Oswald-Bold.ttf");
+    /*font-weight: 600;*/
+}
+
+@font-face {
+    font-family: "oswald";
+    src: url("/Fonts/Oswald-Regular.ttf");
+    /*font-weight: 400;*/
+}
+
+@font-face {
+    font-family: "oswald-light";
+    src: url("/Fonts/Oswald-Light.ttf");
+    /*font-weight: 200;*/
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto&display=swap');
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkcyan;
+}
+
+h1{
+    color:chocolate;
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    background-color:beige;
+    /*box-sizing:border-box;*/
+    margin: 5px;
+    padding: 10px;
+    outline: 1px solid rgb(196, 171, 60);
+    text-indent: 0.5cm;
+    font-variant: small-caps;
+}
+
+ul{
+    list-style-type:circle;
+}
+
+#menu{
+    display: inline;
+    padding: 0px 50px;
+    border-left: 4px double chocolate;
+}
+
+table, th, td{
+    border-collapse: collapse;
+}
+
+table{
+    color:chocolate;
+    width: 100%;
+    font-family: "oswald";
+    
+}
+
+tr{
+    width: auto;
+    
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th{
+    
+}
+
+td{
+    width: auto;
+}
+
+#tartalom {
+    width: 100%;
+    border-bottom: 1px chocolate solid;
+}
+
+#tartalom tr{
+    
+}
+
+#tartalom th{
+    color: white;
+    background-color: chocolate;
+}
+
+#tartalom td{
+>>>>>>> 14a2fed96e27b2d027f033102849ab35d7f8bac0
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
@@ -16,6 +115,7 @@ h1{
     margin: 0px;
 }
 
+<<<<<<< HEAD
 p{
     margin: 10px 10px 10px 10px;
 }
@@ -56,9 +156,26 @@ td{
     border-bottom: 1px solid rgb(124, 30, 30);
 }
 
+=======
+#foot{
+    text-align: left;
+}
+
+img{
+    border: 5px;
+    border-color: crimson;
+}
+
+>>>>>>> 14a2fed96e27b2d027f033102849ab35d7f8bac0
 a{
     font-style: normal;
+    color:chocolate;
+    
+}
+
+a:link{
     text-decoration: none;
+<<<<<<< HEAD
     color:rgb(124, 30, 30);
     font-weight: normal;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -86,3 +203,20 @@ img{
 img.img1{
     visibility:visible;
 }
+=======
+}
+
+a:visited{
+    text-decoration-style: wavy;
+    text-decoration-color: chocolate;
+}
+
+a:hover{
+    color: brown;
+    font-weight: bold;
+}
+
+#tartalom th a{
+    color:white;
+}
+>>>>>>> 14a2fed96e27b2d027f033102849ab35d7f8bac0
